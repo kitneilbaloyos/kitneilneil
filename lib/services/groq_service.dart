@@ -80,7 +80,7 @@ class QuizResult {
 
 class GroqService {
   // Use environment variable if available, otherwise use hardcoded key for testing
-  static const String _apiKey = String.fromEnvironment('GROQ_API_KEY', defaultValue: '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');
+  static const String _apiKey = String.fromEnvironment('GROQ_API_KEY', defaultValue: 'SECRET_API__KEY_HEHEHEHE');
   static const String _baseUrl = 'https://api.groq.com/openai/v1/chat/completions';
   static const String _model = 'llama-3.1-8b-instant';
 
